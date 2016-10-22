@@ -1,0 +1,31 @@
+{
+  "name": "example-koa2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscaroceguera/example-koa2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscaroceguera/example-koa2/issues"
+  },
+  "homepage": "https://github.com/oscaroceguera/example-koa2#readme",
+  "dependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "config": "^1.21.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "koa": "2",
+    "koa-bodyparser": "next",
+    "koa-router": "next",
+    "mongodb": "^2.2.11"
+  }
+}
